@@ -1,0 +1,2 @@
+enrichment_plugin:
+  BLOCKLISTDE_IP_SOURCE: http://lists.blocklist.de/lists/all.txt
