@@ -24,6 +24,15 @@ This feed includes
 | strongips | All IPs which are older then 2 month and have more then 5.000 attacks. |
 | bruteforcelogin |  All IPs which attacks Joomlas, Wordpress and other Web-Logins with Brute-Force Logins |
 
+### PRE-REQUISITES to use BlockList.de feed API and DNIF  
+Outbound access required to request BlockList.de feed API 
+
+| Protocol   | Source IP  | Source Port  | Direction	 | Destination Domain | Destination Port  |  
+|:------------- |:-------------|:-------------|:-------------|:-------------|:-------------|  
+| TCP | AD,A10 | Any | Egress	| github.com | 443 |
+| TCP | AD,A10 | Any | Egress	| lists.blocklist.de | 443 | 
+
+
 ### Using the BlockList.de feed API
  The BlockList.de feed API is found on github at
 
