@@ -1,5 +1,5 @@
 ## BlockList.de   
-  http://lists.blocklist.de/lists/all.txt
+  www.blocklist.de 
 
 ### Overview
 www.blocklist.de is a free and voluntary service provided by a Fraud/Abuse-specialist, whose servers are often attacked via SSH-, Mail-Login-, FTP-, Webserver- and other services. 
