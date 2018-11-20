@@ -30,7 +30,7 @@ Outbound access required to request BlockList.de feed API
 | Protocol   | Source IP  | Source Port  | Direction	 | Destination Domain | Destination Port  |  
 |:------------- |:-------------|:-------------|:-------------|:-------------|:-------------|  
 | TCP | AD,A10 | Any | Egress	| github.com | 443 |
-| TCP | AD,A10 | Any | Egress	| blocklist.de | 443 | 
+| TCP | AD,A10 | Any | Egress	| blocklist.de | 80 | 
 
 
 ### Using the BlockList.de feed API
